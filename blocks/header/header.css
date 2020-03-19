@@ -1,0 +1,18 @@
+@import './__logo/header__logo.css';
+@import './__lang-switch/header__lang-switch.css';
+@import './__lang/header__lang.css';
+@import './__lang-link/header__lang-link.css';
+@import './__lang-link/_current/header__lang-link_current.css';
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    margin-top: 30px;
+  }
+}
