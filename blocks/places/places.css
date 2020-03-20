@@ -3,7 +3,24 @@
 @import './__website/places__website.css';
 @import './__url-heading/places__url-heading.css';
 @import './__url/places__url.css';
+@import './__img-container/places__img-container.css';
 @import './__img/places__img.css';
-@import './__description/places__description.css';
 @import './__paragraph/places__paragraph.css';
 
+.places {
+  margin: 0 0 4rem;
+}
+
+@media screen and (min-width: 768px) {
+  .places {
+    margin-bottom: 6.375rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .places {
+    width: 100%;
+    max-width: 984px;
+    margin: 0 auto 6.375rem;
+  }
+}

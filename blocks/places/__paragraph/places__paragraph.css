@@ -1,0 +1,21 @@
+.places__paragraph {
+  margin: 0;
+  font: 16px/27px 'Inter', Arial, sans-serif;
+}
+
+.places__paragraph:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .places__paragraph {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .places__paragraph:not(:last-child) {
+    margin-bottom: 2.25rem;
+  }
+}

@@ -1,0 +1,13 @@
+.places__url {
+  display: inline-block;
+  margin-top: .5rem;
+  color: #fff;
+  font: 18px/30px 'Inter', Arial, sans-serif;
+  opacity: 1;
+  transition: opacity .12s linear 0s;
+}
+
+.places__url:focus,
+.places__url:hover {
+  opacity: .6;
+}
