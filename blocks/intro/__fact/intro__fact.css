@@ -1,0 +1,11 @@
+.intro__fact {
+  font: 12px/19px 'InterBold', Arial, sans-serif;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .intro__fact {
+    font-size: 13px;
+    line-height: 20px;
+  }
+}
