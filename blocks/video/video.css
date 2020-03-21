@@ -1,0 +1,20 @@
+@import './__container/video__container.css';
+@import './__item/video__item.css';
+@import './__icon-play/video__icon-play.css';
+@import './__description/video__description.css';
+@import './__duration/video__duration.css';
+@import './__title/video__title.css';
+@import './__subtitle/video__subtitle.css';
+@import './__item-bg/video__item-bg.css';
+
+.video {
+  width: 100%;
+  max-width: 1184px;
+  margin: 4rem auto;
+}
+
+@media screen and (min-width: 768px) {
+  .video {
+    margin: 6.375rem auto;
+  }
+}

@@ -3,7 +3,10 @@
 @import './blocks/page/page.css';
 @import './blocks/header/header.css';
 @import './blocks/content/content.css';
+@import './blocks/content-title/content-title.css';
+@import './blocks/content-subtitle/content-subtitle.css';
 @import './blocks/lead/lead.css';
 @import './blocks/intro/intro.css';
 @import './blocks/photo-album/photo-album.css';
 @import './blocks/places/places.css';
+@import './blocks/video/video.css'

@@ -1,0 +1,16 @@
+.video__subtitle {
+  margin: 0.125rem 0 0;
+  font: 14px/15px 'Inter', Arial, sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+  .video__subtitle {
+    margin-top: 0.75rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .video__subtitle {
+    margin-top: 1.125rem;
+  }
+}

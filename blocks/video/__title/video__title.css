@@ -1,0 +1,13 @@
+.video__title {
+  margin: .5rem 0 0;
+  font: 24px/26px 'InterBlack', Arial, sans-serif;
+  font-weight: 900;
+}
+
+@media screen and (min-width: 1024px) {
+  .video__title {
+    margin-top: 0.75rem;
+    font-size: 36px;
+    line-height: 39px;
+  }
+}
