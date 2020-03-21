@@ -1,0 +1,23 @@
+.comments__author {
+  margin: 1.0625rem 0 0;
+  font: 14px/22px 'InterBlack', Arial, sans-serif;
+  font-weight: 900;
+}
+
+@media screen and (min-width: 375px) {
+  .comments__author {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .comments__author {
+    order: 1;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .comments__author {
+    margin-top: 1.5rem;
+  }
+}

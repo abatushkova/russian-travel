@@ -1,0 +1,12 @@
+.comments__quote {
+  margin: 1.5rem 0 0;
+  font: 16px/23px 'Inter', Arial, sans-serif;
+}
+
+@media screen and (min-width: 1024px) {
+  .comments__quote {
+    margin-top: 2.625rem;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}

@@ -9,4 +9,5 @@
 @import './blocks/intro/intro.css';
 @import './blocks/photo-album/photo-album.css';
 @import './blocks/places/places.css';
-@import './blocks/video/video.css'
+@import './blocks/video/video.css';
+@import './blocks/comments/comments.css';
