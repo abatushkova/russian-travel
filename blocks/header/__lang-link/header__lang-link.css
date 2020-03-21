@@ -3,7 +3,8 @@
   font: 18px/17px Inter, Arial, sans-serif;
   text-decoration: none;
   opacity: 1;
-  transition: opacity .12s linear 0s;
+  transition: opacity .12s cubic-bezier(.0,.0,.2,1) 0s;
+  will-change: opacity;
 }
 
 .header__lang-link:focus,

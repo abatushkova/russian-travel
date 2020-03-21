@@ -4,7 +4,8 @@
   color: #fff;
   font: 18px/30px 'Inter', Arial, sans-serif;
   opacity: 1;
-  transition: opacity .12s linear 0s;
+  transition: opacity .12s cubic-bezier(.0,.0,.2,1) 0s;
+  will-change: opacity;
 }
 
 .places__url:focus,
