@@ -1,0 +1,26 @@
+@import './__link-list/footer__link-list.css';
+@import './__link-item/footer__link-item.css';
+@import './__link/footer__link.css';
+@import './__copyright/footer__copyright.css';
+
+.footer {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  max-width: 1184px;
+  margin: 4rem auto 0;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 6.375rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .footer {
+    margin-top: 10rem;
+  }
+}

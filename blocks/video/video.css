@@ -8,8 +8,6 @@
 @import './__item-bg/video__item-bg.css';
 
 .video {
-  width: 100%;
-  max-width: 1184px;
   margin: 4rem auto;
 }
 

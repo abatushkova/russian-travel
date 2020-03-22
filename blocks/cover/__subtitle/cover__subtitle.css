@@ -5,6 +5,7 @@
   bottom: 1.5rem;
   z-index: 1;
   width: calc(100% - 2rem);
+  max-width: 382px;
   margin: 0 auto;
   font: 14px/17px 'Inter', Arial, sans-serif;
   text-align: center;
@@ -13,8 +14,6 @@
 @media screen and (min-width: 768px) {
   .cover__subtitle {
     bottom: 2.5rem;
-    width: 100%;
-    max-width: 382px;
     font-size: 18px;
     line-height: 26px;
   }

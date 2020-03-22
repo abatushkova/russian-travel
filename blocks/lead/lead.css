@@ -6,7 +6,9 @@
 @import './__caption/lead__caption.css';
 
 .lead {
-  margin: 3rem 0 4rem;
+  width: 100%;
+  max-width: 984px;
+  margin: 3rem auto 4rem;
 }
 
 @media screen and (min-width: 768px) {

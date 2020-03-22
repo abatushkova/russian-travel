@@ -10,5 +10,5 @@
 
 .places__url:focus,
 .places__url:hover {
-  opacity: .6;
+  opacity: .5;
 }

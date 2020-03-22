@@ -5,8 +5,6 @@
   grid-template-rows: minmax(188px, 1fr);
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   grid-gap: 8px;
-  width: 100%;
-  max-width: 1184px;
   margin: 4rem 0;
   font-size: 0;
 }

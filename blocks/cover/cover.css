@@ -4,7 +4,6 @@
 @import './__img-bg/cover__img-bg.css';
 
 .cover {
-  max-width: 1184px;
   margin: 4rem -1rem;
   font-size: 0;
 }
