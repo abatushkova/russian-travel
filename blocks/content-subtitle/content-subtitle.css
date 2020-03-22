@@ -1,4 +1,6 @@
 .content-subtitle {
+  width: 100%;
+  max-width: 640px;
   margin: 1rem auto 0;
   font: 16px/23px 'Inter', Arial, sans-serif;
   text-align: center;
@@ -14,8 +16,6 @@
 
 @media screen and (min-width: 1024px) {
   .content-subtitle {
-    width: 100%;
-    max-width: 640px;
     margin-top: 3rem;
   }
 }

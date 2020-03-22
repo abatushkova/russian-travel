@@ -1,4 +1,6 @@
 .content-title {
+  width: 100%;
+  max-width: 800px;
   margin: 0 auto;
   font: 32px/35px 'InterBlack', Arial, sans-serif;
   font-weight: 900;
@@ -14,8 +16,6 @@
 
 @media screen and (min-width: 1024px) {
   .content-title {
-    width: 100%;
-    max-width: 800px;
     font-size: 72px;
     line-height: 78px;
   }

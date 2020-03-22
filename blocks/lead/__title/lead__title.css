@@ -1,4 +1,6 @@
 .lead__title {
+  width: 100%;
+  max-width: 782px;
   margin: 0 auto .5rem;
   font: 40px/44px 'InterBlack', Arial, sans-serif;
   font-weight: 900;

@@ -1,0 +1,26 @@
+.cover__item {
+  position: relative;
+  z-index: 0;
+  display: block;
+  padding-bottom: 67.5%;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .cover__item {
+    padding-bottom: 65.1%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover__item {
+    padding-bottom: 54.88%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__item {
+    padding-bottom: 50.16%;
+  }
+}

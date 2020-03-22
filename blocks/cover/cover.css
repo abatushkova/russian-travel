@@ -1,0 +1,28 @@
+@import './__item/cover__item.css';
+@import './__title/cover__title.css';
+@import './__subtitle/cover__subtitle.css';
+@import './__img-bg/cover__img-bg.css';
+
+.cover {
+  max-width: 1184px;
+  margin: 4rem -1rem;
+  font-size: 0;
+}
+
+@media screen and (min-width: 375px) {
+  .cover {
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cover {
+    margin: 6.375rem -1.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover {
+    margin: 6.375rem auto 10rem;
+  }
+}
