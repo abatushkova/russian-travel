@@ -1,7 +1,7 @@
 .comments__container {
   display: grid;
-  grid-template-columns: minmax(min-content, 382px);
-  grid-gap: 48px;
+  grid-template-columns: minmax(min-content, 23.875rem);
+  grid-gap: 3rem;
   justify-content: center;
   margin-top: 2.5rem;
 }
@@ -21,6 +21,6 @@
 @media screen and (min-width: 1024px) {
   .comments__container {
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 19px;
+    grid-gap: 1.1875rem;
   }
 }

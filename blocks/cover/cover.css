@@ -22,6 +22,13 @@
 
 @media screen and (min-width: 1024px) {
   .cover {
-    margin: 6.375rem auto 10rem;
+    margin: 6.375rem -3rem 10rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover {
+    margin-right: auto;
+    margin-left: auto;
   }
 }

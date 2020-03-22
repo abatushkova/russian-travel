@@ -1,16 +1,28 @@
 .lead__img-container {
-  font-size: 0;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 65.93%;
+}
+
+@media screen and (min-width: 375px) {
+  .lead__img-container {
+    padding-bottom: 56.26%;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .lead__img-container {
-    position: relative;
-    overflow: hidden;
     padding-bottom: 54.68%;
   }
 }
 
 @media screen and (min-width: 1024px) {
+  .lead__img-container {
+    padding-bottom: 59.7%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
   .lead__img-container {
     padding-bottom: 56.3%;
   }

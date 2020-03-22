@@ -1,26 +1,26 @@
 .video__description {
   position: absolute;
-  left: 16px;
-  bottom: 16px;
+  left: 1rem;
+  bottom: 1rem;
   z-index: 1;
 }
 
 @media screen and (min-width: 375px) {
   .video__description {
-    left: 24px;
-    bottom: 24px;
+    left: 1.5rem;
+    bottom: 1.5rem;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .video__description {
-    left: 30px;
-    bottom: 35px;
+    left: 1.875rem;
+    bottom: 2.1875rem;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .video__description {
-    bottom: 30px;
+    bottom: 1.875rem;
   }
 }

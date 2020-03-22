@@ -2,16 +2,15 @@
 
 .photo-album {
   display: grid;
-  grid-template-rows: minmax(188px, 1fr);
-  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-  grid-gap: 8px;
+  grid-template-rows: minmax(11.75rem, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(17.75rem, 1fr));
+  grid-gap: .5rem;
   margin: 4rem 0;
-  font-size: 0;
 }
 
 @media screen and (min-width: 375px) {
   .photo-album {
-    grid-gap: 16px;
+    grid-gap: 1rem;
   }
 }
 
@@ -23,14 +22,14 @@
 
 @media screen and (min-width: 1024px) {
   .photo-album {
-    grid-gap: 14px;
+    grid-gap: .875rem;
     margin-top: 6.375rem;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .photo-album {
-    grid-gap: 16px;
+    grid-gap: 1rem;
     margin-bottom: 5.75rem;
   }
 }

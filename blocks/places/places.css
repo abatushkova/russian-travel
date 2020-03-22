@@ -20,7 +20,7 @@
 @media screen and (min-width: 1024px) {
   .places {
     width: 100%;
-    max-width: 984px;
+    max-width: 61.5rem;
     margin: 0 auto 6.375rem;
   }
 }

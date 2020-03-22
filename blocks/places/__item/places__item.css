@@ -6,8 +6,8 @@
 @media screen and (min-width: 768px) {
   .places__item {
     display: grid;
-    grid-template-columns: 340px 1fr;
-    grid-gap: 40px 28px;
+    grid-template-columns: 21.25rem 1fr;
+    grid-gap: 2.5rem 1.75rem;
     align-items: start;
     margin-bottom: 4.5rem;
   }
@@ -15,14 +15,14 @@
 
 @media screen and (min-width: 1024px) {
   .places__item {
-    grid-template-columns: 440px 1fr;
-    grid-gap: 40px 32px;
+    grid-template-columns: 27.5rem 1fr;
+    grid-gap: 2.5rem 2rem;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .places__item {
-    grid-template-columns: 460px 1fr;
-    grid-gap: 60px 40px;
+    grid-template-columns: 28.75rem 1fr;
+    grid-gap: 3.75rem 2.5rem;
   }
 }

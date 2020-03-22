@@ -1,5 +1,6 @@
 .cover__item {
   position: relative;
+  overflow: hidden;
   z-index: 0;
   display: block;
   padding-bottom: 67.5%;

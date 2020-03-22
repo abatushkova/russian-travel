@@ -1,6 +1,6 @@
 .lead__title {
   width: 100%;
-  max-width: 782px;
+  max-width: 48.875rem;
   margin: 0 auto .5rem;
   font: 40px/44px 'InterBlack', Arial, sans-serif;
   font-weight: 900;
@@ -12,12 +12,5 @@
     margin-bottom: 3rem;
     font-size: 96px;
     line-height: 93px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .lead__title {
-    width: 100%;
-    max-width: 782px;
   }
 }
