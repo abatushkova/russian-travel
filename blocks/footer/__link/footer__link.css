@@ -3,6 +3,8 @@
   font: 24px/41px 'Inter', Arial, sans-serif;
   text-decoration: none;
   opacity: 1;
+  -webkit-transition: opacity .12s cubic-bezier(.0,.0,.2,1) 0s;
+  -o-transition: opacity .12s cubic-bezier(.0,.0,.2,1) 0s;
   transition: opacity .12s cubic-bezier(.0,.0,.2,1) 0s;
   will-change: opacity;
 }

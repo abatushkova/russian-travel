@@ -1,7 +1,9 @@
 @import './__img/photo-album__img.css';
 
 .photo-album {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-rows: minmax(11.75rem, 1fr);
   grid-template-rows: minmax(11.75rem, 1fr);
   grid-template-columns: repeat(auto-fit, minmax(17.75rem, 1fr));
   grid-gap: .5rem;

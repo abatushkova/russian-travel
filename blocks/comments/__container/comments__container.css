@@ -1,8 +1,14 @@
 .comments__container {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: minmax(-webkit-min-content, 23.875rem);
+  -ms-grid-columns: minmax(min-content, 23.875rem);
+  grid-template-columns: minmax(-webkit-min-content, 23.875rem);
   grid-template-columns: minmax(min-content, 23.875rem);
   grid-gap: 3rem;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 2.5rem;
 }
 
@@ -20,6 +26,7 @@
 
 @media screen and (min-width: 1024px) {
   .comments__container {
+    -ms-grid-columns: 1fr 1.1875rem 1fr 1.1875rem 1fr;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1.1875rem;
   }
