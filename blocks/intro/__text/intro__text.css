@@ -10,3 +10,16 @@
     line-height: 24px;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .intro__text {
+    width: 100%;
+    max-width: 43.25rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro__text {
+    max-width: 42.6875rem;
+  }
+}

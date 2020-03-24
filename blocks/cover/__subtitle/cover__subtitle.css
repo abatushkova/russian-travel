@@ -1,9 +1,5 @@
 .cover__subtitle {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 1.5rem;
-  z-index: 1;
+  grid-row: 3 / -1;
   width: calc(100% - 2rem);
   max-width: 23.875rem;
   margin: 0 auto;
@@ -13,14 +9,7 @@
 
 @media screen and (min-width: 768px) {
   .cover__subtitle {
-    bottom: 2.5rem;
     font-size: 18px;
     line-height: 26px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .cover__subtitle {
-    bottom: 3rem;
   }
 }

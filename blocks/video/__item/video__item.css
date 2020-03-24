@@ -1,10 +1,87 @@
 .video__item {
   position: relative;
-  overflow: hidden;
   z-index: 0;
-  display: block;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 1rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border-radius: 5px;
-  background-color: #000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
   text-decoration: none;
+}
+
+.video__item::before {
+  content: '';
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  width: 2.5625rem;
+  height: 2.5625rem;
+  background-image: url('../../../images/video/__item/icon-play.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.video__item::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: .5;
+  -webkit-transition: opacity .2s cubic-bezier(.0,.0,.2,1) 0s;
+  -o-transition: opacity .2s cubic-bezier(.0,.0,.2,1) 0s;
+  transition: opacity .2s cubic-bezier(.0,.0,.2,1) 0s;
+  will-change: opacity;
+}
+
+.video__item:focus::after,
+.video__item:hover::after {
+  opacity: 0;
+}
+
+@media screen and (min-width: 375px) {
+  .video__item {
+    padding: 1.5rem;
+  }
+
+  .video__item::before {
+    top: 1.5rem;
+    left: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .video__item {
+    padding: 1.875rem 1.875rem 2.1875rem;
+  }
+
+  .video__item::before {
+    top: 1.875rem;
+    left: 1.875rem;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .video__item {
+    padding-bottom: 1.875rem;
+  }
 }

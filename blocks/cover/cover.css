@@ -1,7 +1,6 @@
 @import './__item/cover__item.css';
 @import './__title/cover__title.css';
 @import './__subtitle/cover__subtitle.css';
-@import './__img-bg/cover__img-bg.css';
 
 .cover {
   margin: 4rem -1rem;

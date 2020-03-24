@@ -9,6 +9,10 @@
   will-change: opacity;
 }
 
+.footer__link:not(:last-child) {
+  margin: 0 0 1rem;
+}
+
 .footer__link:focus,
 .footer__link:hover {
   opacity: .7;
@@ -18,6 +22,9 @@
   .footer__link {
     font-size: 16px;
     line-height: 27px;
+  }
+  .footer__link:not(:last-child) {
+    margin: 0 1.125rem 0 0;
   }
 }
 

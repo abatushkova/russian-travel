@@ -10,3 +10,10 @@
     margin-top: 1.5rem;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .intro__facts-list {
+    width: 100%;
+    max-width: 23.9375rem;
+  }
+}
