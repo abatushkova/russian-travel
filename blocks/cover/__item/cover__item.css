@@ -8,8 +8,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100vh;
-  max-height: 13.5rem;
+  height: calc(100vw * 216 / 320);
   background-image: url('../../../images/cover/__item/sunset-with-trains.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -41,18 +40,13 @@
 
 @media screen and (min-width: 768px) {
   .cover__item {
-    max-height: 31.25rem;
+    height: calc(100vw * 500 / 768);
   }
 }
 
 @media screen and (min-width: 1024px) {
   .cover__item {
-    max-height: 35.125rem;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .cover__item {
+    height: calc(100vw * 562 / 1024);
     max-height: 37.125rem;
   }
 }
