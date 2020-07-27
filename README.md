@@ -14,5 +14,5 @@ Design mockup is created with Figma by Praktikum specialists.
 ## ToDo
 - add .webp image format
 - create amp and turbo pages
-## Authors
-Alena Batushkova - junior web-developer :)
+## Credits
+Alena Batushkova - junior web developer
